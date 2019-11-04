@@ -7,8 +7,7 @@ body {
   background-image: url("https://i.imgur.com/TQM9meA.png");
   background-repeat: no-repeat;
   background-position: top;
-  background-color: #fffeed;
-  font-family: Montserrat, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #1a5589;
 }
 
@@ -18,5 +17,16 @@ iframe {
 }
 
 button[type="submit"] {
+  background-color: #1a5589;
+}
+
+#navbarFont > a {
+  color: #1a5589;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbarFont > a:hover {
+  color: white;
   background-color: #1a5589;
 }
