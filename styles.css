@@ -1,0 +1,13 @@
+#logo {
+  height: 200px;
+  width: 280px;
+}
+
+body {
+  background-image: url("https://i.imgur.com/TQM9meA.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #fffeed;
+  font-family: Montserrat, sans-serif;
+  color: #1a5589;
+}
