@@ -49,21 +49,64 @@
         </div>
       </nav>
 
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-xl-10 offset-1">
-          <h1>Events</h1>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          iaculis auctor neque, id luctus nisi varius sit amet. Praesent lectus
-          ipsum, malesuada ut egestas non, convallis at ipsum. Suspendisse vel
-          nunc accumsan purus laoreet consequat non eget purus. Proin vehicula
-          tincidunt lacus, sagittis euismod enim facilisis id. Fusce tempor,
-          mauris et convallis tincidunt, metus mi iaculis magna, quis commodo
-          lorem eros vel libero. Curabitur metus magna, gravida at elit sit
-          amet, lacinia facilisis risus. Praesent blandit orci nec dictum
-          facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Morbi ornare ultricies bibendum. Donec nec scelerisque quam. Praesent
-          non maximus turpis, vitae porta arcu. Aliquam iaculis neque sit amet
-          leo blandit efficitur.
+          <h1>We'll host your events</h1>
+          <p>
+            Obet&Del's is the perfect destination for events & group outings of
+            up to 25 guests. To learn more about specific packages, please fill
+            out the form below.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-xl-10 offset-1">
+          <form class="text-secondary">
+            <div class="form-row">
+              <div class="form-group col-6">
+                <label for="nameInput">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nameInput"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="form-group col">
+                <label for="emailInput">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emailInput"
+                  placeholder="yourname@email.com"
+                />
+              </div>
+              <div class="form-group col-6">
+                <label for="dateInput">Date</label>
+                <input type="date" class="form-control" id="dateInput" />
+              </div>
+              <div class="form-group col-auto">
+                <label for="guestCount">Guest Count</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="guestCount"
+                  min="1"
+                  placeholder="1"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="commentInput">Comment</label>
+              <input
+                type="text"
+                class="form-control"
+                id="commentInput"
+                placeholder="Any special requests?"
+              />
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </form>
         </div>
       </div>
     </div>
