@@ -15,8 +15,18 @@ button[type="submit"] {
   background-color: #1a5589;
 }
 
+.carousel-img {
+  height: 300px;
+  width: 500px;
+}
+
 .content-wrap {
   background-color: white;
+}
+
+#mycarousel {
+  max-width: 500px;
+  margin: auto;
 }
 
 iframe {
